@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+tokio = { version = "1.43.0", features = ["full"] }
+
+femme = { version = "2.2.1" }
+log = { version = "0.4.20" }
+
+r3bl_rs_utils_core = { version = "0.9.12" }
+r3bl_tui = { version = "0.6.0" }
